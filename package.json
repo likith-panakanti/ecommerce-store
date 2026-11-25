@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "Small full-stack e-commerce app: product catalog, cart and checkout",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
